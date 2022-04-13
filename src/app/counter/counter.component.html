@@ -1,0 +1,9 @@
+<div class="counter">
+  Current Count: <span class="counter__number">{{ count$ | async }}</span>
+</div>
+
+<button class="btn btn-primary" (click)="increment()">Increment</button>&nbsp;
+
+<button class="btn btn-success" (click)="decrement()">Decrement</button>&nbsp;
+
+<button class="btn btn-warning" (click)="reset()">Reset Counter</button>
